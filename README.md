@@ -11,4 +11,8 @@ such as:
 * Upper case letters
 * Numbers
 * Special character
-at which point a random password that fits your criteria will be generated and displayed.
+After which a random password that fits your criteria will be generated and displayed.
+
+### Live link to password generator https://natka58.github.io/Password-Generator/.
+
+### GitHub link to password generator https://github.com/natka58/Password-Generator
