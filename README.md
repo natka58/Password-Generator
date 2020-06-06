@@ -13,8 +13,9 @@ such as:
 * Special character
 After which a random password that fits your criteria will be generated and displayed.
 
-### Live link to password generator https://natka58.github.io/Password-Generator/.
+### [Live link to password generator] (https://natka58.github.io/Password-Generator/)
 
-### GitHub link to password generator https://github.com/natka58/Password-Generator
+### [GitHub link to password generator] (https://github.com/natka58/Password-Generator0
 
-
+## Screenshot
+<img src="assets/passworddemo.png">
