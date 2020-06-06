@@ -16,3 +16,5 @@ After which a random password that fits your criteria will be generated and disp
 ### Live link to password generator https://natka58.github.io/Password-Generator/.
 
 ### GitHub link to password generator https://github.com/natka58/Password-Generator
+
+
