@@ -29,8 +29,8 @@ function passwordOutput() {
   //Loop password length
   if (userLength < 8 || userLength > 128) {
     return passwordOutput ();
-    alert("Password must be between 8-128 characters")
-    userLength = (prompt("How many characters would you like your password to have?"));
+    //alert("Password must be between 8-128 characters")
+    //userLength = (prompt("How many characters would you like your password to have?"));
   }
   alert(`Your password will have ${userLength} characters`);
   console.log(userLength);
