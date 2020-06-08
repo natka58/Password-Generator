@@ -1,4 +1,4 @@
-document.querySelector("#generate").addEventListener("click", passwordExecute);
+document.querySelector("#generate").addEventListener("click", passwordGenerate);
 
 // var characterType
 var lowerCase = [
@@ -126,7 +126,7 @@ function passwordOutput() {
   ) 
   {
   //Prompt when character not chosen
-    alert('At least 1 special character must be selected');
+  alert('At least 1 special character must be selected');
 
   var userLowerCase = confirm(
     'Do you want lower case letters?');
@@ -159,15 +159,15 @@ function passwordOutput() {
   var randomString = "";
   for (let i = 0; i < userLength; i++) {
     randomString =
-      randomString +
-      characterType[Math.floor(Math.random() * characterType.length)];
+    randomString +
+    characterType[Math.floor(Math.random() * 
+    characterType.length)];
     console.log(randomString);
   }
   return randomString;
 }
-function passwordExecute() {
+function passwordGenerate() {
   var password = passwordOutput();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
 }
