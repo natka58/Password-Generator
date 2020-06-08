@@ -1,5 +1,8 @@
 document.querySelector("#generate").addEventListener("click", passwordGenerate);
 
+
+//Test merge branches s
+
 // var characterType
 var lowerCase = [
   "a",
